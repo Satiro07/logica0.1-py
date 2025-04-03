@@ -6,4 +6,4 @@ while True:
     if lista not in lista1:
         lista1.append(lista)
 
-print([n for n in range(1, len(lista1)+1) if n**2 in lista1])
+print([n**2 for n in range(1, max(lista1)+1) if n**2 in lista1])
