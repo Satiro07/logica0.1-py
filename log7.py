@@ -6,4 +6,4 @@ while True:
     if lista not in lista1:
         lista1.append(lista)
 
-print(f'saida: {[i for i in range(1, len(lista1)) if i * i in lista1]}')
+print([n for n in range(1, len(lista1)+1) if n**2 in lista1])
