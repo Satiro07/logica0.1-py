@@ -7,4 +7,9 @@ def fatorial(soma, num):
     return soma
 num = int(input('Digite um número: '))
 soma = 1
-print(f'Fatorial de {num}: {fatorial(soma, num)}')
+if num == 0:
+    print(f'Fatorial de {num}: 1')
+elif num > 0:
+    print(f'Fatorial de {num}: {fatorial(soma, num)}')
+else:
+    print('Número tem que ser maior ou igual a 0!')
