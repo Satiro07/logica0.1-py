@@ -1,3 +1,4 @@
+#compreensão de lista
 lista1 = []
 while True:
     lista = int(input('Digite um número: '))

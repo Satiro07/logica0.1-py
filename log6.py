@@ -1,3 +1,4 @@
+# recursão
 def recursao(frase, cont, contagem):
     vogal = ['a', 'e', 'i', 'o', 'u', 'á', 'ã', 'â', 'é', 'ê', 'í', 'î', 'ó', 'õ', 'ô', 'ú', 'û']
     if frase[cont] in vogal:

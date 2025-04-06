@@ -1,3 +1,4 @@
+#compreensão de lista
 print('Lista 1')
 lista1 = []
 while True:
