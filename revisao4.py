@@ -13,5 +13,3 @@ for k, v in dicionario.items():
         idade_maior = v
     cont += 1
 print(f'A pessoa mais velha é {nome_maior}, com {idade_maior} anos.')
-
-    
