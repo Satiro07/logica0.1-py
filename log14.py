@@ -18,9 +18,9 @@
 
 def recursao(num):
     copia = num
-    dig = soma = 0
+    soma = 0
     while copia:
-        num %= 10
+        num = copia % 10
         copia //= 10
         soma += num
     num = soma
@@ -28,5 +28,4 @@ def recursao(num):
         return recursao(num)
     return(num)
 num = int(input('Digite um número: '))
-
 print(recursao(num))
