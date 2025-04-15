@@ -2,7 +2,7 @@ def numeros_perfeitos(numero):
     quadrados = []
     for i in range(1, numero+1):
         soma = 0
-        for y in range(1, i+1):
+        for y in range(1, i):
             if i % y == 0:
                 soma += y
         if soma == i:
