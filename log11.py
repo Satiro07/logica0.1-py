@@ -6,7 +6,8 @@
 # f = 'python'
 # print(palindromo(f))
 
-def palindromo(frase):
-    return frase == frase[::-1]
-f = 'ana'
-print(palindromo(f))
+# def palindromo(frase):
+#     return frase == frase[::-1]
+# f = 'ana'
+# print(palindromo(f))
+
