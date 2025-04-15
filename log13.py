@@ -1,7 +1,6 @@
 def soma_digitos(num):
     copia = num
-    digitos = 0
-    soma = 0
+    digitos = soma = 0
     while copia:
         copia //= 10
         digitos += 1
