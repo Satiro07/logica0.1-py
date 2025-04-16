@@ -3,10 +3,7 @@ def verificador_senha(senha):
     letra_minuscula = 0
     espaço = 0
     numero = 0
-    
     for i in senha:
-        if i == i.upper():
-            letra_maiuscula += 1  
         if i == i.lower():
             letra_minuscula += 1 
         if ' ' in senha:
@@ -14,11 +11,12 @@ def verificador_senha(senha):
         if i in '1234567890':
             numero += 1
         else:
-            continue
+            if i == i.upper():
+                letra_maiuscula += 1  
     if letra_maiuscula == 0 or letra_minuscula == 0 or espaço >= 1 or numero == 0:
         return 'Senha inválida'
     else:
         return 'Senha válida'
-senha = 'Senha 123'
+senha = 'senha123'
 print(verificador_senha(senha))
 
