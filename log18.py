@@ -17,6 +17,6 @@ def verificador_senha(senha):
         return 'Senha inválida'
     else:
         return 'Senha válida'
-senha = 'senha123'
+senha = 'Senha1'
 print(verificador_senha(senha))
 
