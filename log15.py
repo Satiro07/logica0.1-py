@@ -8,5 +8,5 @@ def numeros_perfeitos(numero):
         if soma == i:
             quadrados.append(i)
     return quadrados
-numero = 30
+numero = 497
 print(numeros_perfeitos(numero))
