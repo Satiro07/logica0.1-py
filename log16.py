@@ -3,6 +3,5 @@ def frequencia_caracteres(palavra):
     for i in palavra:
         dic[i] = palavra.count(i)
     return dic
-
-palavra = 'banana'
+palavra = 'banana'.lower()
 print(frequencia_caracteres(palavra))
