@@ -5,5 +5,5 @@ def quadrados_perfeitos(lista):
             if y * y == i:
                 quadrados.append(i)
     return quadrados
-lista = [2, 3, 5, 7,11]
+lista = [15, 16, 23, 25, 30, 36]
 print(quadrados_perfeitos(lista))
