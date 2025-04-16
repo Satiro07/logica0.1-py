@@ -1,3 +1,4 @@
+# somar digitos de um número, até que ele fique com apenas um digito
 def recursao(num):
     copia = num
     soma = 0
