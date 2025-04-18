@@ -1,4 +1,4 @@
-vetor = [4, 6, 7, 3, 9]
+vetor = [4, 6, 7,9, 3, 9]
 cont = -1
 for i in range(0, len(vetor)):
     menor = min(vetor[:cont])
